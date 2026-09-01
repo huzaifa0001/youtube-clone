@@ -10,13 +10,27 @@
 }
 
 .search-bar{
-    border-radius: 20px;
-    height:20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height:26px;
     width:70%;
+    border: 1px solid lightgray;
+}
+
+.search-icon{
+    width: 18px;
+}
+
+.search-button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 56px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-left: none;
 }
 
 .logos{
-    background-color:lightblue;
     display: flex;
     flex-direction: row;
     width:200px;
@@ -25,7 +39,8 @@
 }
 
 .search{
-    background-color:lightpink;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: row;
     flex: 2;
@@ -34,12 +49,37 @@
     justify-content: center;
 }
 
+.mic-button{
+    margin-left: 10px;
+    border-radius: 17px;
+    border: none;
+}
+
+.mic-icon{
+    width: 17px;
+}
+
 .profile{
-    background-color:lightgreen;
      display: flex;
     flex-direction: row;
     flex:1;
     align-items: center;
+    justify-content: end;
+}
+.upload{
+    width: 80px;
+    height: 25px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.noti{
+    width: 25px;
+    margin-right: 10px;
 }
 
 .logo{
