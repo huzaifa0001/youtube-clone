@@ -1,0 +1,8 @@
+.sidebar{
+    background-color:lightpink;
+    position: fixed;
+    top:50px;
+    left:0;
+    height: 100%;
+    width: 240px;
+}
