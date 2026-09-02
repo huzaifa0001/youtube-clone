@@ -5,4 +5,179 @@
     left:0;
     height: 100%;
     width: 240px;
+    overflow-y: auto;   
+    overflow-x: hidden;
+}
+
+.home-icon{
+    width: 60px;
+
+}
+
+.home{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    height:30px;
+    background-color: white;
+}
+
+.home-button{
+    display: flex;;
+    border-radius: 12px;
+    height: 40px;
+    align-items: center;
+    padding-left: 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 20px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+.home-button:hover{
+    background-color: gray;
+}
+
+.shorts{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    height: 43px;
+    background-color: white;
+}
+
+.short-button{
+    display: flex;;
+    border-radius: 12px;
+    height: 40px;
+    align-items: center;
+    padding-left: 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.short-icon{
+    width: 40px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.short-button:hover{
+    background-color: lightgray;
+}
+
+.section-1{
+    border-bottom: 1px solid lightgray;
+}
+
+.section-2{
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.subscriptions{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    height: 43px;
+    background-color: white;
+}
+
+.subs-button{
+    display: flex;;
+    border-radius: 12px;
+    height: 40px;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.subs-button:hover{
+    background-color: lightgray;
+}
+
+.channels{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    height: 43px;
+    background-color: white; 
+}
+
+.channel-but{
+    display: flex;;
+    border-radius: 12px;
+    height: 40px;
+    align-items: center;
+    padding-left: 12px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.channel-but:hover{
+    background-color: lightgray;
+}
+
+.channel-icon{
+    width: 25px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-right: 25px;
+}
+
+.arrow-icon{
+    width: 20px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-right: 25px;
+}
+
+.section-3{
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.channel-ico{
+    width: 25px;
+    margin-left: 7px;
+    margin-right: 25px;
+}
+
+.section-4{
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.section-5{
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
 }
