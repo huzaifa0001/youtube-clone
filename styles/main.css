@@ -1,3 +1,106 @@
 .body{
-    padding-bottom: 5000px;
+    padding-bottom: auto;
+}
+
+.Main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 20px;
+    margin-left: 240px;
+    height: auto;
+    row-gap: 10px;
+    padding-top: 15px;
+    
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 240px;
+    margin-top: 50px;
+    height: 45px;
+    overflow-y:hidden;   
+    overflow-x:auto;
+}
+
+.genre{
+    display: flex;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    height: 100%;
+    background-color: white; 
+}
+
+.genre-but{
+    display: flex;;
+    border-radius: 8px;
+    height: 30px;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.genre-butt{
+    display: flex;;
+    border-radius: 8px;
+    height: 30px;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+    width: max-content;
+}
+
+.Video{
+    height:auto;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.Video:hover{
+    background-color: lightblue;
+    border-radius: 18px;
+}
+
+.Thumbnail{
+    display: flex;
+    height:auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.thumbnail{
+    width:300px;
+    border-radius: 18px;
+}
+
+.Video-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-pic{
+    margin-top:12px;
+    margin-left: 10px;
+}
+
+.pp{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.title{
+    align-self: center;
+    margin-left: 10px;
 }

@@ -182,25 +182,38 @@
     background-color: white;
 }
 
-.section-6{
+.section-6 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    padding: 15px 20px;
+    height: 200px;
+
+    background-color: white;
     border-bottom: 1px solid lightgray;
-    padding-top: 10px;
-    height: 70px;
+
+    gap: 0;
+}
+
+.link {
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.links {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.google{
     background-color: white;
     width: 100%;
 }
 
-.link{
-     display: flex;
-    flex-direction: row;
-    height:10px;
-}
-
-.links{
-    color: grey;
+.goog{
+    color: black;
     text-decoration: none;
     font-size: 14px;
 }
